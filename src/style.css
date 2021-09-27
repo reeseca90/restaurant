@@ -1,0 +1,41 @@
+#content {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+}
+
+#head {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+}
+
+#logo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#controls {
+    display: flex;
+    background-color: lightgreen;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 100px;
+}
+
+#body {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+#foot {
+    height: 75px;
+    background-color: grey;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#foot p {
+    font-size: 24px;
+}
