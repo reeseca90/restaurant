@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Mom's Spaghetti",
+        "description": "A true classic! Made with fresh ingredients, just like Mom used to!",
+        "imgpath": "moms-spaghetti.jpg"
+    },
+    {
+        "name": "Tom's Spaghetti",
+        "description": "A new classic, with Tom's twist on the sauce!",
+        "imgpath": "toms-spaghetti.jpg"
+    },
+    {
+        "name": "Bruschetta",
+        "description": "Home made bread with fresh tomatoes and seasonings for a great start to your meal.",
+        "imgpath": "bruschetta.jpg"
+    },
+    {
+        "name": "Pizza",
+        "description": "An Italian favorite, made to share!",
+        "imgpath": "pizza.jpg"
+    },
+    {
+        "name": "Gelato",
+        "description": "Made in house with rotating flavors! Ask your server for availability.",
+        "imgpath": "gelato.jpg"
+    },
+    {
+        "name": "Cake",
+        "description": "Get it by the piece, or the whole thing made to share.",
+        "imgpath": "cake.jpg"
+    }
+]

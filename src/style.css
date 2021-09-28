@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     background-color: lightgrey;
+    min-height: 97vh;
 }
 
 #head {
@@ -13,29 +14,94 @@
 #logo {
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Birthstone', cursive;
+    font-size: 96px;
+    text-align: center;
 }
 
 #controls {
     display: flex;
-    background-color: lightgreen;
     margin-left: auto;
     margin-right: auto;
     gap: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #body {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 12px;
+    margin-top: 24px;
+    gap: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #foot {
     height: 75px;
     background-color: grey;
     text-align: center;
-    margin-top: 20px;
+    margin-top: auto;
 }
 
 #foot p {
-    font-size: 24px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25px;
+}
+
+#menuTop {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    font-family: 'Birthstone', cursive;
+    font-size: 48px;
+    text-align: center;
+}
+
+.itemCard {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 12px;
+}
+
+.itemImg {
+    margin-left: auto;
+    margin-right: auto;
+    width: 235px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.itemText {
+    margin: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#bodyContent {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Birthstone', cursive;
+    font-size: 48px;
+    text-align: center;
+}
+
+.contactDetailsBox {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#homeDesc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 24px;
+    width: 300px;
 }

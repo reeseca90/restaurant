@@ -12,7 +12,7 @@ const createMain = (() => {
 
     const logo = document.createElement('div');
     logo.setAttribute('id', 'logo');
-    logo.textContent = 'placeholder for logo';
+    logo.textContent = 'Culinary by Craig';
     head.appendChild(logo);
 
     const controls = document.createElement('div');
@@ -42,7 +42,8 @@ const createMain = (() => {
     content.appendChild(foot);
 
     const footContent = document.createElement('p');
-    footContent.textContent = "Craig";
+    footContent.textContent = "Design by Craig, 2021";
     foot.appendChild(footContent);
 })();
 
+createHome();

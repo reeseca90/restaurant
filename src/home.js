@@ -1,4 +1,9 @@
 export default function createHome() {
+    if (!!document.getElementById('menuTop')) {
+        const menuTop = document.getElementById('menuTop');
+        content.removeChild(menuTop)
+    }
+    
     if (!!document.getElementById('body')) {
         const body = document.getElementById('body');
         while (body.lastElementChild) {
@@ -13,7 +18,13 @@ export default function createHome() {
     content.insertBefore(body, foot);
 
     const bodyContent = document.createElement('div');
-    bodyContent.textContent = "This is a placeholder text for the homepage.";
+    bodyContent.setAttribute('id', 'bodyContent');
+    bodyContent.textContent = "Welcome!";
     body.appendChild(bodyContent);
+
+    const homeDesc = document.createElement('div');
+    homeDesc.setAttribute('id', 'homeDesc');
+    homeDesc.textContent = "A local establishment serving food from all over the world, you won't be disappointed by our menu."
+    bodyContent.appendChild(homeDesc);
 
 }
